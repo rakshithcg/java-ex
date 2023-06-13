@@ -15,7 +15,7 @@ spec:
         app: webapp
     spec:
       containers:
-      - image: rakshithcg/rakshithg:latest
+      - image: rakshithcg/rakshithg:ver$BUILD_NUMBER
         imagePullPolicy: IfNotPresent
         name: k8s-ct
         ports:
