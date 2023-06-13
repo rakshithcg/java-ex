@@ -18,3 +18,5 @@ spec:
       - image: rakshithcg/rakshithg:latest
         imagePullPolicy: Always
         name: k8s-ct
+        containerPorts:
+        - port: 8080
