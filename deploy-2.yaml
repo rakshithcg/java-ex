@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - image: rakshithcg/rakshithg:latest
-        imagePullPolicy: Always
+        imagePullPolicy: IfNotPresent
         name: k8s-ct
         ports:
         - containerPort: 8080
